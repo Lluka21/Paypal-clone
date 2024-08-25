@@ -1,0 +1,395 @@
+:root {
+  --backgroud-color: rgb(19, 123, 243);
+  --background-color2: rgb(243, 243, 243);
+  --text-color: rgb(39, 39, 221);
+  --border-color: rgb(19, 123, 243);
+  --button-background: rgb(19, 123, 243);
+  --header-font-weight: 600;
+  --header-font-size: 18px;
+  --span: rgb(19, 123, 243);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Main */
+
+/* Header */
+
+#menu {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1500px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  text-align: center;
+  font-weight: var(--header-font-weight);
+  letter-spacing: 0.07rem;
+  font-size: var(--header-font-size);
+}
+
+.list li {
+  cursor: pointer;
+}
+
+.login {
+  padding: 0.6rem;
+  width: 80px;
+  border-radius: 20px;
+  /* border: none; */
+  background-color: #fff;
+  border-color: var(--border-color);
+  color: rgb(19, 123, 243);
+  cursor: pointer;
+}
+
+.login:hover {
+  color: rgb(1, 89, 190);
+  border-color: rgb(1, 89, 190);
+}
+
+.signup {
+  padding: 0.8rem;
+  width: 80px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--button-background);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: -14px;
+}
+
+.signup:hover {
+  background-color: rgb(3, 90, 252);
+}
+
+/* Header ends here*/
+
+/* Backround-Content */
+
+.bg {
+  background-image: url(/images/istockphoto-904583692-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3.2rem;
+}
+
+.background-content {
+  padding: 14rem;
+  width: 1500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.background-content h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.signup-free {
+  width: 300px;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 1rem;
+  background-color: var(--button-background);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.signup-free:hover {
+  background-color: rgb(3, 90, 252);
+}
+
+.background-content p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.span {
+  color: var(--span);
+  cursor: pointer;
+}
+
+.span:hover {
+  text-decoration: underline;
+}
+
+/* Paypal For Everyone */
+
+.paypal-everyone {
+  width: 1500px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.paypal-everyone h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 2.7rem;
+}
+
+.flex-content {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.businesses img {
+  margin-top: -15px;
+}
+
+.individuals img,
+.businesses img,
+.partners img {
+  padding-bottom: 0.75rem;
+}
+
+.individuals h3,
+.businesses h3,
+.partners h3 {
+  font-weight: 100;
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+.businesses h3 {
+  margin-top: -8px;
+}
+
+.join {
+  margin-top: 5px;
+}
+
+.learn-more {
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  width: 180px;
+  /* border: none; */
+  border-radius: 30px;
+  background-color: #fff;
+  border-color: var(--border-color);
+  color: rgb(1, 89, 190);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  color: rgb(1, 89, 190);
+}
+
+/* Paypal For Everyone Ends here*/
+
+/* Connect buyers n  sellers */
+
+.bg2 {
+  background-color: var(--background-color2);
+}
+
+.bg2 h2 {
+  padding-top: 2rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+  justify-content: center;
+  font-weight: 100;
+  font-size: 40px;
+}
+.buy-sell {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.buy {
+  text-decoration: underline;
+  color: rgb(39, 39, 39);
+  font-weight: 600;
+}
+
+.flex-content2 {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  /* margin-bottom: 4rem; */
+  padding-bottom: 3rem;
+}
+
+.flex-content2 p {
+  color: rgb(66, 66, 66);
+}
+
+.flex-content2 img {
+  margin-bottom: 2rem;
+}
+
+/* one */
+
+.one {
+  border: 1.2px solid grey;
+  padding: 1rem;
+  border-radius: 70%;
+  margin-left: -3rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.descr1 {
+  margin-left: -3rem;
+}
+
+.fr {
+  margin-left: -2.2rem;
+}
+
+.signup-span {
+  color: rgb(4, 104, 253);
+}
+
+/* two */
+
+.two {
+  border: 1.2px solid grey;
+  padding: 1rem;
+  border-radius: 70%;
+  margin-left: -2rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+/* three */
+
+.three {
+  border: 1.2px solid grey;
+  padding: 1rem;
+  border-radius: 70%;
+  margin-left: -2rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.gr {
+  margin-left: 2rem;
+}
+
+/* ends here */
+
+.more {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* section3 */
+
+.bg3 {
+  background-color: var(--backgroud-color);
+  color: #fff;
+}
+
+.join-paypal {
+  width: 1500px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.join-paypal h2 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.content h3 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.content1 p {
+  width: 80%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.7rem;
+}
+.content2 p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.7rem;
+}
+
+a {
+  color: #fff;
+}
+
+.content2 {
+  margin-top: -20px;
+}
+
+/* section3 ends here*/
+
+/* section 4 */
+
+.bg4 {
+  background-color: var(--background-color2);
+}
+
+.lets-start {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lets-start h2 {
+  font-weight: 100;
+  font-size: 45px;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.start {
+  margin-bottom: 2rem;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 1rem;
+  background-color: var(--button-background);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
